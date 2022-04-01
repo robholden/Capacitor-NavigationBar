@@ -7,22 +7,19 @@ import Capacitor
  */
 @objc(NavigationBarPlugin)
 public class NavigationBarPlugin: CAPPlugin {
-    private let implementation = NavigationBar()
-
-    @objc func setBackgroundColor(_ call: CAPPluginCall) -> {
+    @objc func setBackgroundColor(_ call: CAPPluginCall) -> Void {
         call.resolve();
     }
 
-    @objc func setNavigationBarDividerColor(_ call: CAPPluginCall) -> {
+    @objc func setNavigationBarDividerColor(_ call: CAPPluginCall) -> Void {
         call.resolve();
     }
 
-    @objc func setNavigationBarContrastEnforced(_ call: CAPPluginCall) -> {
+    @objc func setNavigationBarContrastEnforced(_ call: CAPPluginCall) -> Void {
         call.resolve();
     }
 
-    @objc func setStyle(_ call: CAPPluginCall) -> {
+    @objc func setStyle(_ call: CAPPluginCall) -> Void {
         call.resolve();
     }
-
 }

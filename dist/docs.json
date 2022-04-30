@@ -1,0 +1,79 @@
+{
+  "api": {
+    "name": "NavigationBarPlugin",
+    "slug": "navigationbarplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "setBackgroundColor",
+        "signature": "(options: { color: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ color: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setbackgroundcolor"
+      },
+      {
+        "name": "setNavigationBarDividerColor",
+        "signature": "(options: { color: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ color: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setnavigationbardividercolor"
+      },
+      {
+        "name": "setNavigationBarContrastEnforced",
+        "signature": "(options: { enforceContrast: boolean; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ enforceContrast: boolean; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setnavigationbarcontrastenforced"
+      },
+      {
+        "name": "setStyle",
+        "signature": "(options: { style: 'Light' | 'Dark'; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ style: 'Light' | 'Dark'; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setstyle"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}

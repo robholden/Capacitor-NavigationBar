@@ -20,10 +20,10 @@ NavigationBar.setStyle({ style: 'Light' });
 
 <docgen-index>
 
-- [`setBackgroundColor(...)`](#setbackgroundcolor)
-- [`setNavigationBarDividerColor(...)`](#setnavigationbardividercolor)
-- [`setNavigationBarContrastEnforced(...)`](#setnavigationbarcontrastenforced)
-- [`setStyle(...)`](#setstyle)
+* [`setBackgroundColor(...)`](#setbackgroundcolor)
+* [`setNavigationBarDividerColor(...)`](#setnavigationbardividercolor)
+* [`setNavigationBarContrastEnforced(...)`](#setnavigationbarcontrastenforced)
+* [`setStyle(...)`](#setstyle)
 
 </docgen-index>
 
@@ -40,7 +40,8 @@ setBackgroundColor(options: { color: string; }) => Promise<void>
 | ------------- | ------------------------------- |
 | **`options`** | <code>{ color: string; }</code> |
 
----
+--------------------
+
 
 ### setNavigationBarDividerColor(...)
 
@@ -52,7 +53,8 @@ setNavigationBarDividerColor(options: { color: string; }) => Promise<void>
 | ------------- | ------------------------------- |
 | **`options`** | <code>{ color: string; }</code> |
 
----
+--------------------
+
 
 ### setNavigationBarContrastEnforced(...)
 
@@ -64,7 +66,8 @@ setNavigationBarContrastEnforced(options: { enforceContrast: boolean; }) => Prom
 | ------------- | ------------------------------------------ |
 | **`options`** | <code>{ enforceContrast: boolean; }</code> |
 
----
+--------------------
+
 
 ### setStyle(...)
 
@@ -76,6 +79,6 @@ setStyle(options: { style: 'Light' | 'Dark'; }) => Promise<void>
 | ------------- | ------------------------------------------ |
 | **`options`** | <code>{ style: 'Light' \| 'Dark'; }</code> |
 
----
+--------------------
 
 </docgen-api>
